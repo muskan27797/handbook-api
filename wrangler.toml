@@ -7,7 +7,7 @@ compatibility_date = "2024-01-01"
 # paste the returned id below
 [[kv_namespaces]]
 binding = "HANDBOOK_KV"
-id = "PASTE_YOUR_KV_ID_HERE"
+id = "88d051aa794b43038fa7553bf5f3c74d"
 
 [vars]
 ALLOWED_ORIGIN = "https://ai-agent-handbook.pages.dev"
