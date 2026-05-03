@@ -1,0 +1,17 @@
+name = "handbook-api"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# KV namespace binding
+# After running `wrangler kv:namespace create HANDBOOK_KV`
+# paste the returned id below
+[[kv_namespaces]]
+binding = "HANDBOOK_KV"
+id = "PASTE_YOUR_KV_ID_HERE"
+
+[vars]
+ALLOWED_ORIGIN = "https://ai-agent-handbook.pages.dev"
+
+# ADMIN_KEY should be set as a secret, not here
+# Run: wrangler secret put ADMIN_KEY
+# Then enter a long random string you'll use to read feedback
